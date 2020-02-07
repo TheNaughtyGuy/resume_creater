@@ -1,0 +1,112 @@
+
+html{
+	background-image: url('bg.jpeg');
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+	opacity:1;
+	padding:25px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.row {
+  display: flex;
+  height: auto;
+}
+
+.column1 {
+  flex: 40%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.column2 {
+  flex: 60%;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+div{
+
+	float: center;
+}
+body{
+	padding-left:40px;
+	padding-right:40px;
+	padding-top:25px;
+	padding-bottom: 25px; 
+	width:1000px;
+	height: auto;
+	text-align:left;
+	vertical-align:center;
+	color:white;
+	background-color:rgba(0,0,0,0.5);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1{
+	text-align:center;
+	font-weight:bold;
+
+
+}
+form{
+	padding-left:10%;
+
+}
+input[type=radio],[type=checkbox],[type=button]{
+	height:auto;
+	width:auto;
+	padding-left:5px;
+	
+}
+input[type=date]{
+	height:auto;
+}
+input[value],[type=date],select{
+	padding-left:5px;
+	color:darkgray;
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+input[type=button]{
+	color:black;
+	background-color:rgb(131, 221, 117);
+	padding:3px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	float:right;
+
+
+}
+button{					
+	padding-right:10px;
+}
+
+input,select{
+	width:60%;
+	height: auto;
+}
+textarea{
+	width:70%;
+	height: 40px;
+}
+
+input:hover,textarea:hover,select:hover,input[type=radio]:hover,[type=checkbox]:hover,[type=button]:hover{
+	background-color:green;
+	opacity:90%;
+	color:white;
+	cursor:pointer;
+		font-family:Arial, Helvetica, sans-serif;
+
+}
+.inL{
+	display: inline;
+}
+.hint{
+	color: lightgreen;
+	font-size: 15px;
+}
+
+
